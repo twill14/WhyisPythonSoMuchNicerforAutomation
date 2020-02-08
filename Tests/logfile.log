@@ -9,3 +9,25 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2020-02-08 15:22:22,398 :INFO : test_formSubmission : first name is Thomas
 2020-02-08 15:22:25,820 :INFO : test_formSubmission : first name is Leah
 2020-02-08 15:22:25,820 :INFO : test_formSubmission : first name is Leah
+2020-02-08 15:25:09,067 :INFO : test_end2end : getting all the card titles
+2020-02-08 15:25:09,092 :INFO : test_end2end : iphone X
+2020-02-08 15:25:09,105 :INFO : test_end2end : Samsung Note 8
+2020-02-08 15:25:09,118 :INFO : test_end2end : Nokia Edge
+2020-02-08 15:25:09,132 :INFO : test_end2end : Blackberry
+2020-02-08 15:25:09,333 :INFO : test_end2end : Entering country name as ind
+2020-02-08 15:25:14,736 :INFO : test_end2end : Text Recieved from application is Å~
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-02-08 15:25:23,012 :INFO : test_formSubmission : first name is Thomas
+2020-02-08 15:25:23,768 :INFO : test_formSubmission : first name is Leah
+2020-02-08 15:25:23,768 :INFO : test_formSubmission : first name is Leah
+2020-02-08 15:41:15,846 :INFO : test_end2end : getting all the card titles
+2020-02-08 15:41:15,874 :INFO : test_end2end : iphone X
+2020-02-08 15:41:15,889 :INFO : test_end2end : Samsung Note 8
+2020-02-08 15:41:15,908 :INFO : test_end2end : Nokia Edge
+2020-02-08 15:41:15,927 :INFO : test_end2end : Blackberry
+2020-02-08 15:41:16,145 :INFO : test_end2end : Entering country name as ind
+2020-02-08 15:41:21,655 :INFO : test_end2end : Text Recieved from application is Å~
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-02-08 15:41:29,859 :INFO : test_formSubmission : first name is Thomas
+2020-02-08 15:41:30,671 :INFO : test_formSubmission : first name is Leah
+2020-02-08 15:41:30,671 :INFO : test_formSubmission : first name is Leah

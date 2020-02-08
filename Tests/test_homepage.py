@@ -19,7 +19,7 @@ class TestHomePage(BaseClass):
 
         alertText = homePage.getSuccessMessage().text
 
-        assert ("Success" in alertText)
+        assert ("Success fwefwef" in alertText)
         self.driver.refresh()
 
     @pytest.fixture(params = HomePageData.test_HomePage_Data)
