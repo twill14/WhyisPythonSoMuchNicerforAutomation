@@ -1,0 +1,11 @@
+p2020-02-08 15:18:36,353 :INFO : test_end2end : getting all the card titles
+2020-02-08 15:18:36,371 :INFO : test_end2end : iphone X
+2020-02-08 15:18:36,380 :INFO : test_end2end : Samsung Note 8
+2020-02-08 15:18:36,386 :INFO : test_end2end : Nokia Edge
+2020-02-08 15:18:36,393 :INFO : test_end2end : Blackberry
+2020-02-08 15:18:37,073 :INFO : test_end2end : Entering country name as ind
+2020-02-08 15:18:43,079 :INFO : test_end2end : Text Recieved from application is �~
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2020-02-08 15:22:22,398 :INFO : test_formSubmission : first name is Thomas
+2020-02-08 15:22:25,820 :INFO : test_formSubmission : first name is Leah
+2020-02-08 15:22:25,820 :INFO : test_formSubmission : first name is Leah

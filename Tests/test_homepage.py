@@ -8,7 +8,9 @@ import pytest
 class TestHomePage(BaseClass):
 
     def test_formSubmission(self, getData):
+        log = self.getLogger()
         homePage = HomePage(self.driver)
+        log.info("first name is " + getData["firstname"])
         homePage.getName().send_keys(getData["firstname"])
         homePage.getEmail().send_keys(getData["email"])
         homePage.getCheckbox().click()
