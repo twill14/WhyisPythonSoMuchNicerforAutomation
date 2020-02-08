@@ -10,7 +10,10 @@ class CheckOutPage:
     cardFooter = (By.CSS_SELECTOR, ".card-footer button")
     purchaseButton = (By.CSS_SELECTOR, "a[class*='btn-primary']")
     checkOut = (By.XPATH , "//button[@class='btn btn-success']")
+    checkBox = (By.XPATH, "//div[@class='checkbox checkbox-primary']")
     country = (By.ID, "country")
+    submit = (By.CSS_SELECTOR, "[type='submit']")
+    success = (By.CSS_SELECTOR, "[class*='alert-success']")
 
 
     def getCardTitles(self):
@@ -24,8 +27,17 @@ class CheckOutPage:
         confirmPage = ConfirmPage(self.driver)
         return confirmPage
 
+    def click_checkBox(self):
+        self.driver.find_element(*CheckOutPage.checkBox).click()
+
     def getPurchaseButton(self):
         return self.driver.find_element(*CheckOutPage.purchaseButton)
 
     def  getCountry(self):
         return  self.driver.find_element(*CheckOutPage.country)
+
+    def click_Submit(self):
+        self.driver.find_element(*CheckOutPage.submit).click()
+
+    def getSuccessMessage(self):
+        return self.driver.find_element(*CheckOutPage.success).text
