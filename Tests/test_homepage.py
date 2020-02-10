@@ -13,13 +13,13 @@ class TestHomePage(BaseClass):
         log.info("first name is " + getData["firstname"])
         homePage.getName().send_keys(getData["firstname"])
         homePage.getEmail().send_keys(getData["email"])
-        homePage.getCheckbox().click()
+        homePage.zgetCheckbox().click()
         self.selectOptionByText(homePage.getGender(), getData["gender"])
         homePage.submitForm().click()
 
         alertText = homePage.getSuccessMessage().text
 
-        assert ("Success fwefwef" in alertText)
+        assert ("Success" in alertText)
         self.driver.refresh()
 
     @pytest.fixture(params = HomePageData.test_HomePage_Data)
